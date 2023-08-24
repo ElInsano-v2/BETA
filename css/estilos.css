@@ -8,7 +8,7 @@
 body {
     background-color:#000;
     color: #fff;
-    font-size: 18px;
+    font-size: 29px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
@@ -21,24 +21,22 @@ body {
 }
 
 .contenedor {
-	width: 90%;
-	max-width: 1200px;
+	width: 100%;
+	max-width: 1000px;
     background-size: cover;
     background-image: url('../img/bg-header3.jpeg');
     background-position:center;
 	margin-left: auto; 
 	margin-right: auto;
     margin-top: 15px;
-    padding: 20px 30px;
+    padding: 20px -30px;
     position: relative;
     z-index: 99;
     opacity: .85;
 }
 
 .contenedor.header {
-    height: calc(100vh - 55px);
-    border: 3px solid #555555;
-}
+ 
 
 .barra-navegacion ul {
     display: flex; 
@@ -59,7 +57,7 @@ body {
 .barra-navegacion a {
     text-decoration: none;
     color: #fff;
-    font-size: 19px;
+    font-size: 24px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -98,7 +96,7 @@ body {
 .contenido-descripcion .btn-link {
     display: inline-block;
     padding: 10px 20px;
-    margin: 25px 0;
+    margin: 82px 0;
     text-transform: uppercase;
     text-decoration: none;
     color: #3dff3e;
